@@ -50,5 +50,6 @@ To set up and run the project locally, follow these steps:
 Now you should be able to access the application locally at [http://localhost:3000](http://localhost:3000).
 
 This is how it looks
-<img width="950" alt="image" src="https://github.com/Khadija151/library-app/assets/72862535/e69cec3d-b080-4b53-9e09-76787732304c">
+<img width="947" alt="image" src="https://github.com/Khadija151/library-app/assets/72862535/af1f69cf-d194-4273-9879-f86ac410ad30">
+
 
