@@ -47,64 +47,35 @@ export const BookCard: React.FC<BookCardProps> = ({ book }) => {
         {showDetails && (
           <>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Author:
-              </span>{" "}
-              {author}
+              <span style={styles.boldText}>Author:</span> {author}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Genre:
-              </span>{" "}
-              {genre}
+              <span style={styles.boldText}>Genre:</span> {genre}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Year:
-              </span>{" "}
-              {publication_year}
+              <span style={styles.boldText}>Year:</span> {publication_year}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Pages:
-              </span>{" "}
-              {pages}
+              <span style={styles.boldText}>Pages:</span> {pages}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Reserved:
-              </span>{" "}
-              {reserved}
+              <span style={styles.boldText}>Reserved:</span> {reserved}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Available:
-              </span>{" "}
-              {available}
+              <span style={styles.boldText}>Available:</span> {available}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Online Availability:
-              </span>{" "}
+              <span style={styles.boldText}>Online Availability:</span>{" "}
               {available_online ? "Yes" : "No"}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Return Date:
-              </span>{" "}
-              {return_date}
+              <span style={styles.boldText}>Return Date:</span> {return_date}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Publisher:
-              </span>{" "}
-              {publisher}
+              <span style={styles.boldText}>Publisher:</span> {publisher}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span className="boldText" style={styles.boldText}>
-                Location:
-              </span>{" "}
-              {location}
+              <span style={styles.boldText}>Location:</span> {location}
             </Typography>
           </>
         )}
