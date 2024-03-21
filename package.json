@@ -1,0 +1,16 @@
+{
+  "name": "library-app",
+  "version": "1",
+  "description": "A full stack library app with frontend on react and backend on node",
+  "main": "index.js",
+  "author": "Khadija Ishaq'",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start:backend": "cd backend && yarn start",
+    "start:frontend": "cd frontend && yarn start",
+    "start": "concurrently \"yarn start:backend\" \"yarn start:frontend\""
+  }
+}
